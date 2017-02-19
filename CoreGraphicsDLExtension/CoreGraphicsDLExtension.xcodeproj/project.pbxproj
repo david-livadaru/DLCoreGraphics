@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63252CFF1E5A3A9700324B66 /* CoreGraphicsDLExtension_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 63252CFD1E5A3A9700324B66 /* CoreGraphicsDLExtension_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63252D0C1E5A3AA700324B66 /* CoreGraphicsDLExtension_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 63252D0A1E5A3AA700324B66 /* CoreGraphicsDLExtension_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63252D191E5A3AB700324B66 /* CoreGraphicsDLExtension_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 63252D171E5A3AB700324B66 /* CoreGraphicsDLExtension_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63252D261E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 63252D241E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63252CFB1E5A3A9700324B66 /* CoreGraphicsDLExtension_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreGraphicsDLExtension_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63252CFD1E5A3A9700324B66 /* CoreGraphicsDLExtension_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsDLExtension_iOS.h; sourceTree = "<group>"; };
+		63252CFE1E5A3A9700324B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63252D081E5A3AA700324B66 /* CoreGraphicsDLExtension_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreGraphicsDLExtension_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63252D0A1E5A3AA700324B66 /* CoreGraphicsDLExtension_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsDLExtension_watchOS.h; sourceTree = "<group>"; };
+		63252D0B1E5A3AA700324B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63252D151E5A3AB700324B66 /* CoreGraphicsDLExtension_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreGraphicsDLExtension_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63252D171E5A3AB700324B66 /* CoreGraphicsDLExtension_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsDLExtension_tvOS.h; sourceTree = "<group>"; };
+		63252D181E5A3AB700324B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63252D221E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreGraphicsDLExtension_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63252D241E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsDLExtension_macOS.h; sourceTree = "<group>"; };
+		63252D251E5A3AC300324B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63252CF71E5A3A9700324B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63252D041E5A3AA700324B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63252D111E5A3AB700324B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63252D1E1E5A3AC300324B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63252C7D1E5A380900324B66 = {
+			isa = PBXGroup;
+			children = (
+				63252C891E5A380900324B66 /* CoreGraphicsDLExtension */,
+				63252CFC1E5A3A9700324B66 /* CoreGraphicsDLExtension_iOS */,
+				63252D091E5A3AA700324B66 /* CoreGraphicsDLExtension_watchOS */,
+				63252D161E5A3AB700324B66 /* CoreGraphicsDLExtension_tvOS */,
+				63252D231E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS */,
+				63252C881E5A380900324B66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63252C881E5A380900324B66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63252CFB1E5A3A9700324B66 /* CoreGraphicsDLExtension_iOS.framework */,
+				63252D081E5A3AA700324B66 /* CoreGraphicsDLExtension_watchOS.framework */,
+				63252D151E5A3AB700324B66 /* CoreGraphicsDLExtension_tvOS.framework */,
+				63252D221E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63252C891E5A380900324B66 /* CoreGraphicsDLExtension */ = {
+			isa = PBXGroup;
+			children = (
+				63252C9F1E5A388C00324B66 /* Sources */,
+			);
+			path = CoreGraphicsDLExtension;
+			sourceTree = "<group>";
+		};
+		63252C9F1E5A388C00324B66 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sources;
+			path = ../../Sources;
+			sourceTree = "<group>";
+		};
+		63252CFC1E5A3A9700324B66 /* CoreGraphicsDLExtension_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				63252CFD1E5A3A9700324B66 /* CoreGraphicsDLExtension_iOS.h */,
+				63252CFE1E5A3A9700324B66 /* Info.plist */,
+			);
+			path = CoreGraphicsDLExtension_iOS;
+			sourceTree = "<group>";
+		};
+		63252D091E5A3AA700324B66 /* CoreGraphicsDLExtension_watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				63252D0A1E5A3AA700324B66 /* CoreGraphicsDLExtension_watchOS.h */,
+				63252D0B1E5A3AA700324B66 /* Info.plist */,
+			);
+			path = CoreGraphicsDLExtension_watchOS;
+			sourceTree = "<group>";
+		};
+		63252D161E5A3AB700324B66 /* CoreGraphicsDLExtension_tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				63252D171E5A3AB700324B66 /* CoreGraphicsDLExtension_tvOS.h */,
+				63252D181E5A3AB700324B66 /* Info.plist */,
+			);
+			path = CoreGraphicsDLExtension_tvOS;
+			sourceTree = "<group>";
+		};
+		63252D231E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS */ = {
+			isa = PBXGroup;
+			children = (
+				63252D241E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS.h */,
+				63252D251E5A3AC300324B66 /* Info.plist */,
+			);
+			path = CoreGraphicsDLExtension_macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		63252CF81E5A3A9700324B66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63252CFF1E5A3A9700324B66 /* CoreGraphicsDLExtension_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63252D051E5A3AA700324B66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63252D0C1E5A3AA700324B66 /* CoreGraphicsDLExtension_watchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63252D121E5A3AB700324B66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63252D191E5A3AB700324B66 /* CoreGraphicsDLExtension_tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63252D1F1E5A3AC300324B66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63252D261E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		63252CFA1E5A3A9700324B66 /* CoreGraphicsDLExtension_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63252D021E5A3A9700324B66 /* Build configuration list for PBXNativeTarget "CoreGraphicsDLExtension_iOS" */;
+			buildPhases = (
+				63252CF61E5A3A9700324B66 /* Sources */,
+				63252CF71E5A3A9700324B66 /* Frameworks */,
+				63252CF81E5A3A9700324B66 /* Headers */,
+				63252CF91E5A3A9700324B66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreGraphicsDLExtension_iOS;
+			productName = CoreGraphicsDLExtension_iOS;
+			productReference = 63252CFB1E5A3A9700324B66 /* CoreGraphicsDLExtension_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63252D071E5A3AA700324B66 /* CoreGraphicsDLExtension_watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63252D0D1E5A3AA700324B66 /* Build configuration list for PBXNativeTarget "CoreGraphicsDLExtension_watchOS" */;
+			buildPhases = (
+				63252D031E5A3AA700324B66 /* Sources */,
+				63252D041E5A3AA700324B66 /* Frameworks */,
+				63252D051E5A3AA700324B66 /* Headers */,
+				63252D061E5A3AA700324B66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreGraphicsDLExtension_watchOS;
+			productName = CoreGraphicsDLExtension_watchOS;
+			productReference = 63252D081E5A3AA700324B66 /* CoreGraphicsDLExtension_watchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63252D141E5A3AB700324B66 /* CoreGraphicsDLExtension_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63252D1A1E5A3AB700324B66 /* Build configuration list for PBXNativeTarget "CoreGraphicsDLExtension_tvOS" */;
+			buildPhases = (
+				63252D101E5A3AB700324B66 /* Sources */,
+				63252D111E5A3AB700324B66 /* Frameworks */,
+				63252D121E5A3AB700324B66 /* Headers */,
+				63252D131E5A3AB700324B66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreGraphicsDLExtension_tvOS;
+			productName = CoreGraphicsDLExtension_tvOS;
+			productReference = 63252D151E5A3AB700324B66 /* CoreGraphicsDLExtension_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63252D211E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63252D271E5A3AC300324B66 /* Build configuration list for PBXNativeTarget "CoreGraphicsDLExtension_macOS" */;
+			buildPhases = (
+				63252D1D1E5A3AC300324B66 /* Sources */,
+				63252D1E1E5A3AC300324B66 /* Frameworks */,
+				63252D1F1E5A3AC300324B66 /* Headers */,
+				63252D201E5A3AC300324B66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreGraphicsDLExtension_macOS;
+			productName = CoreGraphicsDLExtension_macOS;
+			productReference = 63252D221E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63252C7E1E5A380900324B66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					63252CFA1E5A3A9700324B66 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					63252D071E5A3AA700324B66 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					63252D141E5A3AB700324B66 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					63252D211E5A3AC300324B66 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 63252C811E5A380900324B66 /* Build configuration list for PBXProject "CoreGraphicsDLExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63252C7D1E5A380900324B66;
+			productRefGroup = 63252C881E5A380900324B66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63252CFA1E5A3A9700324B66 /* CoreGraphicsDLExtension_iOS */,
+				63252D071E5A3AA700324B66 /* CoreGraphicsDLExtension_watchOS */,
+				63252D141E5A3AB700324B66 /* CoreGraphicsDLExtension_tvOS */,
+				63252D211E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63252CF91E5A3A9700324B66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63252D061E5A3AA700324B66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63252D131E5A3AB700324B66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63252D201E5A3AC300324B66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63252CF61E5A3A9700324B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63252D031E5A3AA700324B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63252D101E5A3AB700324B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63252D1D1E5A3AC300324B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63252C8D1E5A380900324B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63252C8E1E5A380900324B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63252D001E5A3A9700324B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CoreGraphicsDLExtension_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.CoreGraphicsDLExtension-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		63252D011E5A3A9700324B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CoreGraphicsDLExtension_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.CoreGraphicsDLExtension-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		63252D0E1E5A3AA700324B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CoreGraphicsDLExtension_watchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.CoreGraphicsDLExtension-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		63252D0F1E5A3AA700324B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CoreGraphicsDLExtension_watchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.CoreGraphicsDLExtension-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		63252D1B1E5A3AB700324B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CoreGraphicsDLExtension_tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.CoreGraphicsDLExtension-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		63252D1C1E5A3AB700324B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CoreGraphicsDLExtension_tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.CoreGraphicsDLExtension-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		63252D281E5A3AC300324B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = CoreGraphicsDLExtension_macOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.CoreGraphicsDLExtension-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		63252D291E5A3AC300324B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = CoreGraphicsDLExtension_macOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.CoreGraphicsDLExtension-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63252C811E5A380900324B66 /* Build configuration list for PBXProject "CoreGraphicsDLExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63252C8D1E5A380900324B66 /* Debug */,
+				63252C8E1E5A380900324B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63252D021E5A3A9700324B66 /* Build configuration list for PBXNativeTarget "CoreGraphicsDLExtension_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63252D001E5A3A9700324B66 /* Debug */,
+				63252D011E5A3A9700324B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63252D0D1E5A3AA700324B66 /* Build configuration list for PBXNativeTarget "CoreGraphicsDLExtension_watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63252D0E1E5A3AA700324B66 /* Debug */,
+				63252D0F1E5A3AA700324B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63252D1A1E5A3AB700324B66 /* Build configuration list for PBXNativeTarget "CoreGraphicsDLExtension_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63252D1B1E5A3AB700324B66 /* Debug */,
+				63252D1C1E5A3AB700324B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63252D271E5A3AC300324B66 /* Build configuration list for PBXNativeTarget "CoreGraphicsDLExtension_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63252D281E5A3AC300324B66 /* Debug */,
+				63252D291E5A3AC300324B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63252C7E1E5A380900324B66 /* Project object */;
+}
