@@ -11,7 +11,49 @@
 		63252D0C1E5A3AA700324B66 /* CoreGraphicsDLExtension_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 63252D0A1E5A3AA700324B66 /* CoreGraphicsDLExtension_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63252D191E5A3AB700324B66 /* CoreGraphicsDLExtension_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 63252D171E5A3AB700324B66 /* CoreGraphicsDLExtension_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63252D261E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 63252D241E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63C666611E5A417C005F1F22 /* DLAngle_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C666581E5A4165005F1F22 /* DLAngle_iOS.framework */; };
+		63C666621E5A4181005F1F22 /* DLAngle_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C6665A1E5A4165005F1F22 /* DLAngle_watchOS.framework */; };
+		63C666631E5A4187005F1F22 /* DLAngle_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C6665C1E5A4165005F1F22 /* DLAngle_tvOS.framework */; };
+		63C666641E5A418A005F1F22 /* DLAngle_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C6665E1E5A4165005F1F22 /* DLAngle_macOS.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63C666571E5A4165005F1F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63C6664F1E5A4165005F1F22 /* DLAngle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 63252D2F1E5A3B6400324B66;
+			remoteInfo = DLAngle_iOS;
+		};
+		63C666591E5A4165005F1F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63C6664F1E5A4165005F1F22 /* DLAngle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 63252D3C1E5A3B7600324B66;
+			remoteInfo = DLAngle_watchOS;
+		};
+		63C6665B1E5A4165005F1F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63C6664F1E5A4165005F1F22 /* DLAngle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 63252D491E5A3B8800324B66;
+			remoteInfo = DLAngle_tvOS;
+		};
+		63C6665D1E5A4165005F1F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63C6664F1E5A4165005F1F22 /* DLAngle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 63252D561E5A3BA600324B66;
+			remoteInfo = DLAngle_macOS;
+		};
+		63C6665F1E5A4165005F1F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63C6664F1E5A4165005F1F22 /* DLAngle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 639D7A031E58DAB1008D10EF;
+			remoteInfo = DLAngleiOSTests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		63252CFB1E5A3A9700324B66 /* CoreGraphicsDLExtension_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreGraphicsDLExtension_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +68,7 @@
 		63252D221E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreGraphicsDLExtension_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63252D241E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsDLExtension_macOS.h; sourceTree = "<group>"; };
 		63252D251E5A3AC300324B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C6664F1E5A4165005F1F22 /* DLAngle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DLAngle.xcodeproj; path = "../Packages/DLAngle-0.2.1/DLAngle/DLAngle.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C666611E5A417C005F1F22 /* DLAngle_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C666621E5A4181005F1F22 /* DLAngle_watchOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C666631E5A4187005F1F22 /* DLAngle_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C666641E5A418A005F1F22 /* DLAngle_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +110,7 @@
 		63252C7D1E5A380900324B66 = {
 			isa = PBXGroup;
 			children = (
+				63C6664F1E5A4165005F1F22 /* DLAngle.xcodeproj */,
 				63252C891E5A380900324B66 /* CoreGraphicsDLExtension */,
 				63252CFC1E5A3A9700324B66 /* CoreGraphicsDLExtension_iOS */,
 				63252D091E5A3AA700324B66 /* CoreGraphicsDLExtension_watchOS */,
@@ -133,6 +181,18 @@
 				63252D251E5A3AC300324B66 /* Info.plist */,
 			);
 			path = CoreGraphicsDLExtension_macOS;
+			sourceTree = "<group>";
+		};
+		63C666501E5A4165005F1F22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63C666581E5A4165005F1F22 /* DLAngle_iOS.framework */,
+				63C6665A1E5A4165005F1F22 /* DLAngle_watchOS.framework */,
+				63C6665C1E5A4165005F1F22 /* DLAngle_tvOS.framework */,
+				63C6665E1E5A4165005F1F22 /* DLAngle_macOS.framework */,
+				63C666601E5A4165005F1F22 /* DLAngleiOSTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +315,7 @@
 				TargetAttributes = {
 					63252CFA1E5A3A9700324B66 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					63252D071E5A3AA700324B66 = {
@@ -281,6 +342,12 @@
 			mainGroup = 63252C7D1E5A380900324B66;
 			productRefGroup = 63252C881E5A380900324B66 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 63C666501E5A4165005F1F22 /* Products */;
+					ProjectRef = 63C6664F1E5A4165005F1F22 /* DLAngle.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				63252CFA1E5A3A9700324B66 /* CoreGraphicsDLExtension_iOS */,
@@ -290,6 +357,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		63C666581E5A4165005F1F22 /* DLAngle_iOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DLAngle_iOS.framework;
+			remoteRef = 63C666571E5A4165005F1F22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		63C6665A1E5A4165005F1F22 /* DLAngle_watchOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DLAngle_watchOS.framework;
+			remoteRef = 63C666591E5A4165005F1F22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		63C6665C1E5A4165005F1F22 /* DLAngle_tvOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DLAngle_tvOS.framework;
+			remoteRef = 63C6665B1E5A4165005F1F22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		63C6665E1E5A4165005F1F22 /* DLAngle_macOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DLAngle_macOS.framework;
+			remoteRef = 63C6665D1E5A4165005F1F22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		63C666601E5A4165005F1F22 /* DLAngleiOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DLAngleiOSTests.xctest;
+			remoteRef = 63C6665F1E5A4165005F1F22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		63252CF91E5A3A9700324B66 /* Resources */ = {
@@ -456,6 +561,7 @@
 		63252D001E5A3A9700324B66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -467,6 +573,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.CoreGraphicsDLExtension-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -474,6 +581,7 @@
 		63252D011E5A3A9700324B66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -638,6 +746,7 @@
 				63252D011E5A3A9700324B66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63252D0D1E5A3AA700324B66 /* Build configuration list for PBXNativeTarget "CoreGraphicsDLExtension_watchOS" */ = {
 			isa = XCConfigurationList;
@@ -646,6 +755,7 @@
 				63252D0F1E5A3AA700324B66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63252D1A1E5A3AB700324B66 /* Build configuration list for PBXNativeTarget "CoreGraphicsDLExtension_tvOS" */ = {
 			isa = XCConfigurationList;
@@ -654,6 +764,7 @@
 				63252D1C1E5A3AB700324B66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63252D271E5A3AC300324B66 /* Build configuration list for PBXNativeTarget "CoreGraphicsDLExtension_macOS" */ = {
 			isa = XCConfigurationList;
@@ -662,6 +773,7 @@
 				63252D291E5A3AC300324B66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
