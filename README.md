@@ -28,26 +28,12 @@ Save the file, then fetch the new dependencies:
 
 `swift package fetch`
 
+For now you have to fetch to other dependecy yourself.
+
+`cd Packages/CoreGraphicsDLExtension-major.minor.patch`
+`swift package fetch`
+
 Open the path folder Packages/CoreGraphicsDLExtension-major.minor.patch/CoreGraphicsDLExtension/ and the Xcode project from into your application project/workspace. Now expand the Products group from CoreGraphicsDLExtension project and drag the framework for which OS you target into your application project's Embed Framework section.
-
-
-### Carthage
-
-Add the new dependecy [Cartfile](https://github.com/Carthage/Carthage/blob/master/Documentation/Artifacts.md#cartfile):
-
-`
-github "davidlivadaru/CoreGraphicsDLExtension"
-`
-
-Save the file, fetch the new dependencies:
-
-`
-carthage update
-`
-
-Open the folder than Carthage/Build/OS/ and drag the framework for which OS you target into your application project's Embed Framework section.
-
-If you're use .framework file do not forget to the configure the [copy frameworks](https://github.com/Carthage/Carthage#if-youre-building-for-ios-tvos-or-watchos) step to strip debug architectures from binary file.
 
 ## Contribution
 
