@@ -11,6 +11,10 @@
 		63252D0C1E5A3AA700324B66 /* CoreGraphicsDLExtension_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 63252D0A1E5A3AA700324B66 /* CoreGraphicsDLExtension_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63252D191E5A3AB700324B66 /* CoreGraphicsDLExtension_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 63252D171E5A3AB700324B66 /* CoreGraphicsDLExtension_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63252D261E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 63252D241E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636E9DC01E5B824100559215 /* CGVectorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E9DBF1E5B824100559215 /* CGVectorExtension.swift */; };
+		636E9DC11E5B824100559215 /* CGVectorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E9DBF1E5B824100559215 /* CGVectorExtension.swift */; };
+		636E9DC21E5B824100559215 /* CGVectorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E9DBF1E5B824100559215 /* CGVectorExtension.swift */; };
+		636E9DC31E5B824100559215 /* CGVectorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E9DBF1E5B824100559215 /* CGVectorExtension.swift */; };
 		63C666611E5A417C005F1F22 /* DLAngle_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C666581E5A4165005F1F22 /* DLAngle_iOS.framework */; };
 		63C666621E5A4181005F1F22 /* DLAngle_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C6665A1E5A4165005F1F22 /* DLAngle_watchOS.framework */; };
 		63C666631E5A4187005F1F22 /* DLAngle_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C6665C1E5A4165005F1F22 /* DLAngle_tvOS.framework */; };
@@ -100,6 +104,7 @@
 		63252D221E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreGraphicsDLExtension_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63252D241E5A3AC300324B66 /* CoreGraphicsDLExtension_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsDLExtension_macOS.h; sourceTree = "<group>"; };
 		63252D251E5A3AC300324B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636E9DBF1E5B824100559215 /* CGVectorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGVectorExtension.swift; sourceTree = "<group>"; };
 		63C6664F1E5A4165005F1F22 /* DLAngle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DLAngle.xcodeproj; path = "../Packages/DLAngle-0.2.1/DLAngle/DLAngle.xcodeproj"; sourceTree = "<group>"; };
 		63D0754C1E5A448B00F2F43E /* Roundable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roundable.swift; sourceTree = "<group>"; };
 		63D075561E5A450900F2F43E /* Translatable2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Translatable2D.swift; sourceTree = "<group>"; };
@@ -190,6 +195,7 @@
 				63D075651E5A45FA00F2F43E /* CGPointExtension.swift */,
 				63D0756F1E5A4AC100F2F43E /* CGSizeExtension.swift */,
 				63D075741E5A4D7800F2F43E /* CGRectExtension.swift */,
+				636E9DBF1E5B824100559215 /* CGVectorExtension.swift */,
 			);
 			name = Sources;
 			path = ../../Sources;
@@ -481,6 +487,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63D075571E5A450900F2F43E /* Translatable2D.swift in Sources */,
+				636E9DC01E5B824100559215 /* CGVectorExtension.swift in Sources */,
 				63D0756B1E5A477600F2F43E /* AbsoluteValueApplicable.swift in Sources */,
 				63D075701E5A4AC100F2F43E /* CGSizeExtension.swift in Sources */,
 				63D0755C1E5A456300F2F43E /* Scalable2D.swift in Sources */,
@@ -496,6 +503,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63D075581E5A450900F2F43E /* Translatable2D.swift in Sources */,
+				636E9DC11E5B824100559215 /* CGVectorExtension.swift in Sources */,
 				63D0756C1E5A477600F2F43E /* AbsoluteValueApplicable.swift in Sources */,
 				63D075711E5A4AC100F2F43E /* CGSizeExtension.swift in Sources */,
 				63D0755D1E5A456300F2F43E /* Scalable2D.swift in Sources */,
@@ -511,6 +519,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63D075591E5A450900F2F43E /* Translatable2D.swift in Sources */,
+				636E9DC21E5B824100559215 /* CGVectorExtension.swift in Sources */,
 				63D0756D1E5A477600F2F43E /* AbsoluteValueApplicable.swift in Sources */,
 				63D075721E5A4AC100F2F43E /* CGSizeExtension.swift in Sources */,
 				63D0755E1E5A456300F2F43E /* Scalable2D.swift in Sources */,
@@ -526,6 +535,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63D0755A1E5A450900F2F43E /* Translatable2D.swift in Sources */,
+				636E9DC31E5B824100559215 /* CGVectorExtension.swift in Sources */,
 				63D0756E1E5A477600F2F43E /* AbsoluteValueApplicable.swift in Sources */,
 				63D075731E5A4AC100F2F43E /* CGSizeExtension.swift in Sources */,
 				63D0755F1E5A456300F2F43E /* Scalable2D.swift in Sources */,
