@@ -31,6 +31,7 @@ Save the file, then fetch the new dependencies:
 For now you have to fetch to other dependecy yourself.
 
 `cd Packages/CoreGraphicsDLExtension-major.minor.patch`
+
 `swift package fetch`
 
 Open the path folder Packages/CoreGraphicsDLExtension-major.minor.patch/CoreGraphicsDLExtension/ and the Xcode project from into your application project/workspace. Now expand the Products group from CoreGraphicsDLExtension project and drag the framework for which OS you target into your application project's Embed Framework section.
