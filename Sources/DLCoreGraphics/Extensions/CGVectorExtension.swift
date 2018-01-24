@@ -4,26 +4,17 @@
 //
 //  Created by David Livadaru on 2/20/17.
 //
-//
 
 import Foundation
-#if os(iOS)
-    import DLAngle_iOS
-#elseif os(watchOS)
-    import DLAngle_watchOS
-#elseif os(tvOS)
-    import DLAngle_tvOS
-#elseif os(macOS)
-    import DLAngle_macOS
-#endif
+import DLAngle
 
 public extension CGVector {
     var magnitude: CGFloat {
         return sqrt(pow(dx, 2.0) + pow(dy, 2.0))
     }
-    
-    var angle: Radian {
-        return Radian(atan2X: dx, y: dy)
+
+    var angle: Radian? {
+        return try? Radian(atan2Y: dy, x: dx)
     }
 }
 

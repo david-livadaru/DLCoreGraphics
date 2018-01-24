@@ -8,16 +8,17 @@ let package = Package(
     products: [
         .library(
             name: "DLCoreGraphics",
-            targets: ["DLCoreGraphics"]),
+            targets: ["DLCoreGraphics"])
     ],
     dependencies: [
+        .package(url: "https://github.com/davidlivadaru/DLAngle.git", .upToNextMajor(from: "1.0.0"))
     ],
     targets: [
         .target(
             name: "DLCoreGraphics",
-            dependencies: []),
+            dependencies: ["DLAngle"]),
         .testTarget(
             name: "DLCoreGraphicsTests",
-            dependencies: ["DLCoreGraphics"]),
+            dependencies: ["DLCoreGraphics"])
     ]
 )
