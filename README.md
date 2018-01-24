@@ -1,4 +1,4 @@
-# CoreGraphicsDLExtension
+# DLCoreGraphics
 
 A cross-platform framework which brings easy to use convenience properties, functions and overloaded operators.
 
