@@ -48,6 +48,11 @@
 		63D7DBCD20277F2D00D412BC /* UIEdgeInsetsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D7DBCC20277F2D00D412BC /* UIEdgeInsetsExtension.swift */; };
 		63D7DBCF202780A500D412BC /* CGRectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D7DBCE202780A500D412BC /* CGRectTests.swift */; };
 		63D7DBD12027888C00D412BC /* UIEdgeInsetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D7DBD02027888C00D412BC /* UIEdgeInsetsTests.swift */; };
+		63D7DBD320278E3800D412BC /* AbsoluteValueApplicable+FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D7DBD220278E3800D412BC /* AbsoluteValueApplicable+FoundationExtension.swift */; };
+		63D7DBD520278EA500D412BC /* Roundable+FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D7DBD420278EA500D412BC /* Roundable+FoundationExtension.swift */; };
+		63D7DBD72027927700D412BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D7DBD62027927700D412BC /* CoreGraphics.framework */; };
+		63D7DBD92027927C00D412BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D7DBD82027927C00D412BC /* UIKit.framework */; };
+		63D7DBDB2027991600D412BC /* Roundable+UIScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D7DBDA2027991600D412BC /* Roundable+UIScreenExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +109,11 @@
 		63D7DBCC20277F2D00D412BC /* UIEdgeInsetsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEdgeInsetsExtension.swift; sourceTree = "<group>"; };
 		63D7DBCE202780A500D412BC /* CGRectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectTests.swift; sourceTree = "<group>"; };
 		63D7DBD02027888C00D412BC /* UIEdgeInsetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIEdgeInsetsTests.swift; sourceTree = "<group>"; };
+		63D7DBD220278E3800D412BC /* AbsoluteValueApplicable+FoundationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AbsoluteValueApplicable+FoundationExtension.swift"; sourceTree = "<group>"; };
+		63D7DBD420278EA500D412BC /* Roundable+FoundationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Roundable+FoundationExtension.swift"; sourceTree = "<group>"; };
+		63D7DBD62027927700D412BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63D7DBD82027927C00D412BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63D7DBDA2027991600D412BC /* Roundable+UIScreenExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Roundable+UIScreenExtension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D7DBD92027927C00D412BC /* UIKit.framework in Frameworks */,
+				63D7DBD72027927700D412BC /* CoreGraphics.framework in Frameworks */,
 				636FAF2020189529000B48DB /* DLAngle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +151,8 @@
 		636FAF1E20189529000B48DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63D7DBD82027927C00D412BC /* UIKit.framework */,
+				63D7DBD62027927700D412BC /* CoreGraphics.framework */,
 				636FAF1F20189529000B48DB /* DLAngle.framework */,
 			);
 			name = Frameworks;
@@ -244,6 +258,9 @@
 		63AEF99B202769D6005D37E2 /* Geometry */ = {
 			isa = PBXGroup;
 			children = (
+				63D7DBD220278E3800D412BC /* AbsoluteValueApplicable+FoundationExtension.swift */,
+				63D7DBD420278EA500D412BC /* Roundable+FoundationExtension.swift */,
+				63D7DBDA2027991600D412BC /* Roundable+UIScreenExtension.swift */,
 				63D7DBBA20276B2E00D412BC /* Scalable2D+OperatorsExtension.swift */,
 				63AEF96E20275C99005D37E2 /* Translatable2D+CGVectorExtension.swift */,
 				63AEF97020275CA9005D37E2 /* Translatable2D+OperatorsExtension.swift */,
@@ -454,8 +471,10 @@
 				63AEF97420275DC8005D37E2 /* CGPoint+AbsoluteValueExtension.swift in Sources */,
 				6386AE552018821400438CB5 /* Transformable2D.swift in Sources */,
 				63D7DBC820277C8F00D412BC /* CGRectExtension.swift in Sources */,
+				63D7DBDB2027991600D412BC /* Roundable+UIScreenExtension.swift in Sources */,
 				63D7DBC120276E8300D412BC /* CGVector+InversibleExtension.swift in Sources */,
 				63D7DBBB20276B2E00D412BC /* Scalable2D+OperatorsExtension.swift in Sources */,
+				63D7DBD320278E3800D412BC /* AbsoluteValueApplicable+FoundationExtension.swift in Sources */,
 				6386AE542018821400438CB5 /* Scalable2D.swift in Sources */,
 				63AEF97620275DDC005D37E2 /* CGPoint+RoundExtension.swift in Sources */,
 				63AEF98A202762B4005D37E2 /* CGSize+OperatorsExtension.swift in Sources */,
@@ -465,6 +484,7 @@
 				63D7DBBD20276DC300D412BC /* Inversible.swift in Sources */,
 				63AEF99420276858005D37E2 /* CGVector+RoundExtension.swift in Sources */,
 				63AEF97820275DE9005D37E2 /* CGPoint+ScaleExtension.swift in Sources */,
+				63D7DBD520278EA500D412BC /* Roundable+FoundationExtension.swift in Sources */,
 				63D7DBCD20277F2D00D412BC /* UIEdgeInsetsExtension.swift in Sources */,
 				63AEF986202761BF005D37E2 /* CGSize+RoundExtension.swift in Sources */,
 				63AEF99A2027691B005D37E2 /* CGVector+CompareExtension.swift in Sources */,

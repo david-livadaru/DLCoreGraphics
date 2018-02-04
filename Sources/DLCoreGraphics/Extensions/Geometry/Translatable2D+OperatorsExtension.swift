@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Translatable2D {
+public extension Translatable2D {
     static func + (_ lhs: Self, _ rhs: CGPoint) -> Self {
         return lhs.translated(byX: rhs.x, y: rhs.y)
     }

@@ -87,4 +87,55 @@ class CGRectTests: XCTestCase {
         let insets = UIEdgeInsets(top: 1.0, left: 1.0, bottom: 1.0, right: 1.0)
         XCTAssert(rect.inseted(using: -insets) == CGRect(x: -1.0, y: -1.0, width: 11.0, height: 11.0))
     }
+
+    func testAbsoluteValue() {
+        var rect = CGRect(x: -1.0, y: 1.0, width: -30.0, height: 15.0)
+        rect.applyAbs()
+        XCTAssert(rect == CGRect(x: 1.0, y: 1.0, width: 30.0, height: 15.0))
+    }
+
+    func testAbsoluteValue2() {
+        var rect = CGRect(x: 1.0, y: -1.0, width: 30.0, height: -15.0)
+        rect.applyAbs()
+        XCTAssert(rect == CGRect(x: 1.0, y: 1.0, width: 30.0, height: 15.0))
+    }
+
+    func testOverloadedAbs() {
+        let rect = CGRect(x: 1.0, y: -1.0, width: 30.0, height: -15.0)
+        XCTAssert(abs(rect) == CGRect(x: 1.0, y: 1.0, width: 30.0, height: 15.0))
+    }
+
+    func testRound() {
+        var rect = CGRect(x: 1.15, y: 1.9, width: 30.87, height: 19.2)
+        rect.round()
+        XCTAssert(rect == CGRect(x: 1.0, y: 3.0, width: 31.0, height: 19.0))
+    }
+
+    func testOverloadedRound() {
+        let rect = CGRect(x: 1.15, y: 1.9, width: 30.87, height: 19.2)
+        XCTAssert(round(rect) == CGRect(x: 1.0, y: 2.9, width: 31.0, height: 19.0))
+    }
+
+    func testCeil() {
+        var rect = CGRect(x: 1.15, y: 1.9, width: 30.87, height: 19.2)
+        rect.ceil()
+        XCTAssert(rect == CGRect(x: 2.0, y: 3.0, width: 31.0, height: 20.0))
+    }
+
+    func testOverloadedCeil() {
+        let point = CGPoint(x: 1.2, y: 2.6)
+        XCTAssert(ceil(point) == CGPoint(x: 2.0, y: 3.0))
+    }
+
+    func testFloor() {
+        var point = CGPoint(x: 1.2, y: 2.6)
+        point.floor()
+        XCTAssert(point == CGPoint(x: 1.0, y: 2.0))
+    }
+
+    func testOverloadedFloor() {
+        let point = CGPoint(x: 1.2, y: 2.6)
+        XCTAssert(floor(point) == CGPoint(x: 1.0, y: 2.0))
+    }
+
 }

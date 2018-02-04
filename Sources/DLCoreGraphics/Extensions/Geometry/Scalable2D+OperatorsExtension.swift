@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Scalable2D {
+public extension Scalable2D {
     static func * (_ lhs: Self, _ rhs: CGFloat) -> Self {
         return lhs.scaled(byX: rhs, y: rhs)
     }

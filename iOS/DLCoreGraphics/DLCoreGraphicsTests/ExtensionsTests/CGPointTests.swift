@@ -63,4 +63,54 @@ class CGPointTests: XCTestCase {
         let result = CGPoint(x: 5.0, y: 5.0)
         XCTAssert(point / 2 == result)
     }
+
+    func testAbsoluteValue() {
+        var point = CGPoint(x: -1.0, y: 2.0)
+        point.applyAbs()
+        XCTAssert(point == CGPoint(x: 1.0, y: 2.0))
+    }
+
+    func testAbsoluteValue2() {
+        var point = CGPoint(x: 1.0, y: -2.0)
+        point.applyAbs()
+        XCTAssert(point == CGPoint(x: 1.0, y: 2.0))
+    }
+
+    func testOverloadedAbs() {
+        let point = CGPoint(x: -1.0, y: -2.0)
+        XCTAssert(abs(point) == CGPoint(x: 1.0, y: 2.0))
+    }
+
+    func testRound() {
+        var point = CGPoint(x: 1.2, y: 2.6)
+        point.round()
+        XCTAssert(point == CGPoint(x: 1.0, y: 3.0))
+    }
+
+    func testOverloadedRound() {
+        let point = CGPoint(x: 1.2, y: 2.6)
+        XCTAssert(round(point) == CGPoint(x: 1.0, y: 3.0))
+    }
+
+    func testCeil() {
+        var point = CGPoint(x: 1.2, y: 2.6)
+        point.ceil()
+        XCTAssert(point == CGPoint(x: 2.0, y: 3.0))
+    }
+
+    func testOverloadedCeil() {
+        let point = CGPoint(x: 1.2, y: 2.6)
+        XCTAssert(ceil(point) == CGPoint(x: 2.0, y: 3.0))
+    }
+
+    func testFloor() {
+        var point = CGPoint(x: 1.2, y: 2.6)
+        point.floor()
+        XCTAssert(point == CGPoint(x: 1.0, y: 2.0))
+    }
+
+    func testOverloadedFloor() {
+        let point = CGPoint(x: 1.2, y: 2.6)
+        XCTAssert(floor(point) == CGPoint(x: 1.0, y: 2.0))
+    }
 }
