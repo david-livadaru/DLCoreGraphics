@@ -39,7 +39,6 @@ class CGPointTests: XCTestCase {
         XCTAssert(point1 == result)
     }
 
-
     func testMultiplicationOperation() {
         let point = CGPoint(x: 1.0, y: 1.0)
         let result = CGPoint(x: 2.0, y: 2.0)
