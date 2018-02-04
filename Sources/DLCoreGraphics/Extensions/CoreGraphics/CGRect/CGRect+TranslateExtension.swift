@@ -8,7 +8,7 @@
 import Foundation
 import CoreGraphics
 
-extension CGRect {
+extension CGRect: Translatable2D {
     mutating public func translate(byX x: CGFloat, y: CGFloat) {
         self = applying(CGAffineTransform(translationX: x, y: y))
     }
