@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		635692932028DB21006FC453 /* CGSizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635692922028DB21006FC453 /* CGSizeTests.swift */; };
 		636FAF1D20188F28000B48DB /* CGFloat+FrameworkExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636FAF1C20188F28000B48DB /* CGFloat+FrameworkExtension.swift */; };
 		636FAF2020189529000B48DB /* DLAngle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636FAF1F20189529000B48DB /* DLAngle.framework */; };
 		636FAF2120189537000B48DB /* DLAngle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636FAF1F20189529000B48DB /* DLAngle.framework */; };
@@ -66,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		635692922028DB21006FC453 /* CGSizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSizeTests.swift; sourceTree = "<group>"; };
 		636FAF1C20188F28000B48DB /* CGFloat+FrameworkExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+FrameworkExtension.swift"; sourceTree = "<group>"; };
 		636FAF1F20189529000B48DB /* DLAngle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DLAngle.framework; path = ../../Carthage/Build/iOS/DLAngle.framework; sourceTree = "<group>"; };
 		6386ADC52018791D00438CB5 /* DLCoreGraphics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLCoreGraphics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -239,6 +241,7 @@
 			children = (
 				63AEF96C20275B58005D37E2 /* CGPointTests.swift */,
 				63D7DBCE202780A500D412BC /* CGRectTests.swift */,
+				635692922028DB21006FC453 /* CGSizeTests.swift */,
 				63D7DBD02027888C00D412BC /* UIEdgeInsetsTests.swift */,
 			);
 			path = ExtensionsTests;
@@ -500,6 +503,7 @@
 				63D7DBD12027888C00D412BC /* UIEdgeInsetsTests.swift in Sources */,
 				63AEF96D20275B58005D37E2 /* CGPointTests.swift in Sources */,
 				6386AEAE20188D5800438CB5 /* SegmentTests.swift in Sources */,
+				635692932028DB21006FC453 /* CGSizeTests.swift in Sources */,
 				63D7DBCF202780A500D412BC /* CGRectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
