@@ -23,4 +23,20 @@ public extension Translatable2D {
     static func -= (_ lhs: inout Self, _ rhs: CGPoint) {
         lhs += (-rhs)
     }
+
+    static func + (_ lhs: Self, _ rhs: CGVector) -> Self {
+        return lhs.translated(by: rhs)
+    }
+
+    static func += (_ lhs: inout Self, _ rhs: CGVector) {
+        lhs.translate(by: rhs)
+    }
+
+    static func - (_ lhs: Self, _ rhs: CGVector) -> Self {
+        return lhs + (-rhs)
+    }
+
+    static func -= (_ lhs: inout Self, _ rhs: CGVector) {
+        lhs += (-rhs)
+    }
 }

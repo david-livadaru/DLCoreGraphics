@@ -70,4 +70,22 @@ class SegmentTests: XCTestCase {
         let segment = Segment(start: CGPoint(x: 0.0, y: 0.0), end: CGPoint(x: 4.0, y: 4.0))
         XCTAssert(segment.middle == CGPoint(x: 2.0, y: 2.0))
     }
+
+    func testNilAngle() {
+        let segment = Segment(start: CGPoint.zero, end: CGPoint(x: 0.0, y: 3.0))
+        let other = Segment(start: CGPoint.zero, end: CGPoint(x: 4.0, y: 4.0))
+        XCTAssertNil(segment.angleFormed(with: other))
+    }
+
+    func testNilAngle2() {
+        let segment = Segment(start: CGPoint.zero, end: CGPoint(x: 4.0, y: 4.0))
+        let other = Segment(start: CGPoint.zero, end: CGPoint(x: 0.0, y: 3.0))
+        XCTAssertNil(segment.angleFormed(with: other))
+    }
+
+    func testAngle_Pi_2() {
+        let segment = Segment(start: CGPoint.zero, end: CGPoint(x: 4.0, y: 4.0))
+        let other = Segment(start: CGPoint.zero, end: CGPoint(x: -1.0, y: 1.0))
+        XCTAssert(segment.angleFormed(with: other) == Radian.pi_2)
+    }
 }

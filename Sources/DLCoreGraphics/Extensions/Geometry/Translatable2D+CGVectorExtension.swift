@@ -13,6 +13,6 @@ public extension Translatable2D {
     }
 
     func translated(by vector: CGVector) -> Self {
-        return translated(byX: vector.dy, y: vector.dy)
+        return translated(byX: vector.dx, y: vector.dy)
     }
 }
