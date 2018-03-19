@@ -27,7 +27,7 @@ extension CGSize: Roundable {
         return CGSize(width: Darwin.ceil(width), height: Darwin.ceil(height))
     }
 
-    mutating public func floor(){
+    mutating public func floor() {
         width = Darwin.floor(width)
         height = Darwin.floor(height)
     }

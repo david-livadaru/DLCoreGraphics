@@ -8,7 +8,10 @@
 import Foundation
 
 public protocol AbsoluteValueApplicable {
+    /// Apply the absolute value to self.
     mutating func applyAbs()
+    /// Computes the absolute value.
+    ///
+    /// - Returns: Returns the the absolute value.
     func appliedAbs() -> Self
 }
-

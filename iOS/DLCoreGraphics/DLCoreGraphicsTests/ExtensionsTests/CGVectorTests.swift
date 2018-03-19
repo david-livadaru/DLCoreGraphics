@@ -99,7 +99,7 @@ class CGVectorTests: XCTestCase {
 
     func testExtensionAngle() {
         let vector = CGVector(dx: 1.0, dy: 1.0)
-        XCTAssert(vector.angle == Radian.pi_4)
+        XCTAssert(vector.direction == Radian.pi_4)
     }
 
     func testExtensionMagnitude() {

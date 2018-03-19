@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CoreGraphics
 
 extension CGPoint: Inversible {
     prefix public static func - (_ value: CGPoint) -> CGPoint {

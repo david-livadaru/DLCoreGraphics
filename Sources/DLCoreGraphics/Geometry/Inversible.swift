@@ -8,5 +8,9 @@
 import Foundation
 
 public protocol Inversible {
+    /// Compute the inverse of self.
+    ///
+    /// - Parameter value: The value to be inversed.
+    /// - Returns: The inverse of self.
     prefix static func - (_ value: Self) -> Self
 }

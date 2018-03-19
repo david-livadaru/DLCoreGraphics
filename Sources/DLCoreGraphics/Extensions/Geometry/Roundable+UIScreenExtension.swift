@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 public extension Roundable where Self : Scalable2D {
     mutating func screenRound() {

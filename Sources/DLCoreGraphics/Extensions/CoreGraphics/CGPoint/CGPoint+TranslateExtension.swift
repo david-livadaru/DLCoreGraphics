@@ -9,10 +9,12 @@ import Foundation
 import CoreGraphics
 
 extension CGPoint: Translatable2D {
+    // swiftlint:disable:next identifier_name
     mutating public func translate(byX x: CGFloat, y: CGFloat) {
         self = applying(CGAffineTransform(translationX: x, y: y))
     }
 
+    // swiftlint:disable:next identifier_name
     public func translated(byX x: CGFloat, y: CGFloat) -> CGPoint {
         return applying(CGAffineTransform(translationX: x, y: y))
     }

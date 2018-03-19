@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CoreGraphics
 
 public extension Translatable2D {
     static func + (_ lhs: Self, _ rhs: CGPoint) -> Self {

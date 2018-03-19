@@ -27,7 +27,7 @@ extension CGVector: Roundable {
         return CGVector(dx: Darwin.ceil(dx), dy: Darwin.ceil(dy))
     }
 
-    mutating public func floor(){
+    mutating public func floor() {
         dx = Darwin.floor(dx)
         dy = Darwin.floor(dy)
     }

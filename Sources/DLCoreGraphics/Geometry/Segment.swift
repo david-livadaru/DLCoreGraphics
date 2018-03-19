@@ -12,7 +12,7 @@ import DLAngle
 public struct Segment: Equatable {
     /// Start point of the segment.
     public let start: CGPoint
-    /// End point of the segment/
+    /// End point of the segment.
     public let end: CGPoint
 
     /// The middle point of the segment.
@@ -62,6 +62,12 @@ public struct Segment: Equatable {
         return try? Radian(atan: abs(argument))
     }
 
+    /// The segments are equal if they have the same start and end points.
+    ///
+    /// - Parameters:
+    ///   - lhs: The left hand side value.
+    ///   - rhs: The right hand side value.
+    /// - Returns: True if segments equal, false otherwise.
     public static func == (_ lhs: Segment, _ rhs: Segment) -> Bool {
         return lhs.start == rhs.start && lhs.end == rhs.end
     }

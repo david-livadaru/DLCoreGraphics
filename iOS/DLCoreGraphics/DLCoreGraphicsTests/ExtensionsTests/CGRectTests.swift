@@ -85,7 +85,37 @@ class CGRectTests: XCTestCase {
     func testInsetingUsingEdgeInsets() {
         let rect = CGRect(x: 0.0, y: 0.0, width: 10.0, height: 10.0)
         let insets = UIEdgeInsets(top: 1.0, left: 1.0, bottom: 1.0, right: 1.0)
-        XCTAssert(rect.inseted(using: -insets) == CGRect(x: -1.0, y: -1.0, width: 11.0, height: 11.0))
+        XCTAssert(rect.inseted(using: -insets) == CGRect(x: -1.0, y: -1.0, width: 12.0, height: 12.0))
+    }
+
+    func testInsetingUsingTopEdgeInsets() {
+        let rect = CGRect(x: 5.0, y: 7.0, width: 30.0, height: 10.0)
+        let insets = UIEdgeInsets(top: 3.0, left: 0.0, bottom: 0.0, right: 0.0)
+        XCTAssert(rect.inseted(using: insets) == CGRect(x: 5.0, y: 10.0, width: 30.0, height: 7.0))
+    }
+
+    func testInsetingUsingLeftEdgeInsets() {
+        let rect = CGRect(x: 5.0, y: 7.0, width: 30.0, height: 10.0)
+        let insets = UIEdgeInsets(top: 0.0, left: 2.0, bottom: 0.0, right: 0.0)
+        XCTAssert(rect.inseted(using: insets) == CGRect(x: 7.0, y: 7.0, width: 28.0, height: 10.0))
+    }
+
+    func testInsetingUsingBottomEdgeInsets() {
+        let rect = CGRect(x: 5.0, y: 7.0, width: 30.0, height: 10.0)
+        let insets = UIEdgeInsets(top: 0.0, left: 0.0, bottom: 5.0, right: 0.0)
+        XCTAssert(rect.inseted(using: insets) == CGRect(x: 5.0, y: 7.0, width: 30.0, height: 5.0))
+    }
+
+    func testInsetingUsingRightEdgeInsets() {
+        let rect = CGRect(x: 5.0, y: 7.0, width: 30.0, height: 10.0)
+        let insets = UIEdgeInsets(top: 0.0, left: 0.0, bottom: 0.0, right: 5.0)
+        XCTAssert(rect.inseted(using: insets) == CGRect(x: 5.0, y: 7.0, width: 25.0, height: 10.0))
+    }
+
+    func testInsetingUsingAllEdgeInsets() {
+        let rect = CGRect(x: 5.0, y: 7.0, width: 30.0, height: 10.0)
+        let insets = UIEdgeInsets(top: 3.0, left: 2.0, bottom: 5.0, right: 5.0)
+        XCTAssert(rect.inseted(using: insets) == CGRect(x: 7.0, y: 10.0, width: 23.0, height: 2.0))
     }
 
     func testAbsoluteValue() {

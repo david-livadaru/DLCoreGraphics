@@ -9,10 +9,12 @@ import Foundation
 import CoreGraphics
 
 extension CGRect: Scalable2D {
+    // swiftlint:disable:next identifier_name
     mutating public func scale(byX x: CGFloat, y: CGFloat) {
         self = applying(CGAffineTransform(scaleX: x, y: y))
     }
 
+    // swiftlint:disable:next identifier_name
     public func scaled(byX x: CGFloat, y: CGFloat) -> CGRect {
         return applying(CGAffineTransform(scaleX: x, y: y))
     }
