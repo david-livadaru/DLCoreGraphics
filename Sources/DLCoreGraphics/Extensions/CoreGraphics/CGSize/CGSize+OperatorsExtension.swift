@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CoreGraphics
 
 extension CGSize {
     public static func + (lhs: CGSize, rhs: CGSize) -> CGSize {

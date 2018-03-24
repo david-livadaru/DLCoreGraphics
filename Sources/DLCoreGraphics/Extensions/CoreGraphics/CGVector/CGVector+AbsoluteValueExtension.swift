@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CoreGraphics
 
 extension CGVector: AbsoluteValueApplicable {
     mutating public func applyAbs() {

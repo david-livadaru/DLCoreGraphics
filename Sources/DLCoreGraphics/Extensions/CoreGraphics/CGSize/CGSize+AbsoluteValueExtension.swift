@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CoreGraphics
 
 extension CGSize: AbsoluteValueApplicable {
     mutating public func applyAbs() {

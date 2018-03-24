@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CoreGraphics
 
 public protocol Scalable2D {
     // swiftlint:disable identifier_name

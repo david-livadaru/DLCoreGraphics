@@ -5,6 +5,7 @@
 //  Created by David Livadaru on 2/4/18.
 //
 
+#if os(iOS) || os(tvOS)
 import UIKit
 
 public extension UIEdgeInsets {
@@ -18,3 +19,4 @@ public extension UIEdgeInsets {
         return top + bottom
     }
 }
+#endif

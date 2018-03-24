@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CoreGraphics
 import DLAngle
 
 public extension CGVector {

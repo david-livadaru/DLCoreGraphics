@@ -5,7 +5,7 @@
 //  Created by David Livadaru on 2/4/18.
 //
 
-import Foundation
+#if os(iOS) || os(tvOS)
 import UIKit
 
 public extension Roundable where Self : Scalable2D {
@@ -63,3 +63,4 @@ public func screenCeil<Type: Roundable & Scalable2D>(_ value: Type) -> Type {
 public func screenFloor<Type: Roundable & Scalable2D>(_ value: Type) -> Type {
     return value.screenFlooring()
 }
+#endif

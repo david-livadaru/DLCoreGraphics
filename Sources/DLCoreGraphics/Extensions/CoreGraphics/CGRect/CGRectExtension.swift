@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CoreGraphics
 
 /// An enumeration of rectangular sides.
 ///
@@ -65,6 +64,7 @@ public extension CGRect {
         }
     }
 
+    #if os(iOS) || os(tvOS)
     /// Inset the rectangle by using the insets without modifying the center of rectangle.
     ///
     /// If insets are positive, then self will shrink.
@@ -92,4 +92,5 @@ public extension CGRect {
         copy.inset(using: insets)
         return copy
     }
+    #endif
 }

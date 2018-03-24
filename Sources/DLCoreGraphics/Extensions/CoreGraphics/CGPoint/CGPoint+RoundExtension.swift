@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CoreGraphics
 
 extension CGPoint: Roundable {
     mutating public func round() {

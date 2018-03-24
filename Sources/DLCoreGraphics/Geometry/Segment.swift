@@ -5,7 +5,7 @@
 //  Created by David Livadaru on 1/24/18.
 //
 
-import CoreGraphics
+import Foundation
 import DLAngle
 
 /// A type which defines the mathematical segment.

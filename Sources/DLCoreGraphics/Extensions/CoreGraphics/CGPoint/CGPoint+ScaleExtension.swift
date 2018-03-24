@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CoreGraphics
 
 extension CGPoint: Scalable2D {
     // swiftlint:disable:next identifier_name

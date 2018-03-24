@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CoreGraphics
 
 extension CGVector: Inversible {
     prefix public static func - (_ value: CGVector) -> CGVector {

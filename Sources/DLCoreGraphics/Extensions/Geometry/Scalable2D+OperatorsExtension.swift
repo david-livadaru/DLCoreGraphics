@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CoreGraphics
 
 public extension Scalable2D {
     static func * (_ lhs: Self, _ rhs: CGFloat) -> Self {

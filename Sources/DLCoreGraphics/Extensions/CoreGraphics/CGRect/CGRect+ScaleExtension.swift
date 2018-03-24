@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CoreGraphics
 
 extension CGRect: Scalable2D {
     // swiftlint:disable:next identifier_name

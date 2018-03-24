@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CoreGraphics
 
 public extension Translatable2D {
     mutating func translate(by vector: CGVector) {

@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CoreGraphics
 
 extension CGVector: Comparable {
     public static func < (lhs: CGVector, rhs: CGVector) -> Bool {

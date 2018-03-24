@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CoreGraphics
 
 public protocol Translatable2D {
     // swiftlint:disable identifier_name
