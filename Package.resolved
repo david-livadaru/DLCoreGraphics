@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DLAngle",
+        "repositoryURL": "https://github.com/davidlivadaru/DLAngle.git",
+        "state": {
+          "branch": null,
+          "revision": "f753924b7be3ad7833b8a5ab7888d2d91a47878f",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "DLInterval",
+        "repositoryURL": "https://github.com/davidlivadaru/DLInterval.git",
+        "state": {
+          "branch": null,
+          "revision": "8f56479bea3bc736e8d2cff6c56becc49a3baa03",
+          "version": "1.3.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
