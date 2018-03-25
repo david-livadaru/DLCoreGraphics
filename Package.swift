@@ -16,9 +16,6 @@ let package = Package(
     targets: [
         .target(
             name: "DLCoreGraphics",
-            dependencies: ["DLAngle"]),
-        .testTarget(
-            name: "DLCoreGraphicsTests",
-            dependencies: ["DLCoreGraphics"])
+            dependencies: ["DLAngle"])
     ]
 )
