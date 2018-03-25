@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
   s.name         = "DLCoreGraphics"
-  s.version      = "0.9.0"
-s.summary      = "A cross-platform framework which brings easy to use convenience properties, functions and overloaded operators."
+  s.version      = "0.9.1"
+  s.summary      = "A cross-platform framework which brings easy to use convenience properties, functions and overloaded operators."
 
   s.homepage     = "https://github.com/davidlivadaru/DLCoreGraphics"
 
